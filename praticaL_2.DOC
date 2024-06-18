@@ -1,41 +1,47 @@
-What is IPv4?
-~IP stands for Internet Protocol and v4 stands for Version Four (IPv4). 
-~ IP version four addresses are 32-bit integers which will be expressed in decimal notation. 
-~Example- 192.0.2.126 could be an IPv4 address. 
+~  What is IPv4?
+·	IP stands for Internet Protocol and v4 stands for Version Four (IPv4). 
+·	IP version four addresses are 32-bit integers which will be expressed in decimal notation. 
+·	Example- 192.0.2.126 could be an IPv4 address. 
 
-Parts of IPv4
-~ Network part: 
+~ Parts of IPv4
+·	Network part: 
 The network part indicates the distinctive variety that’s appointed to the network. The network part conjointly identifies the category of the network that’s assigned.
-~ Host Part: 
+·	 Host Part: 
 The host part uniquely identifies the machine on your network. This part of the IPv4 address is assigned to every host. 
 For each host on the network, the network part is the same, however, the host half must vary.
-~ Subnet number: 
+·	Subnet number: 
 This is the nonobligatory part of IPv4. Local networks that have massive numbers of hosts are divided into subnets and subnet numbers are appointed to that.
 
 
-Characteristics of IPv4
-~IPv4 could be a 32-Bit IP Address.
-~IPv4 could be a numeric address, and its bits are separated by a dot.
-~The number of header fields is twelve and the length of the header field is twenty.
-~It has Unicast, broadcast, and multicast style of addresses.
-~IPv4 supports VLSM (Virtual Length Subnet Mask).
-~IPv4 uses the Post Address Resolution Protocol to map to the MAC address.
-~RIP may be a routing protocol supported by the routed daemon.
-~Networks ought to be designed either manually or with DHCP.
-~Packet fragmentation permits from routers and causing host.
+~  Characteristics of IPv4
+·	IPv4 could be a 32-Bit IP Address.
+·	IPv4 could be a numeric address, and its bits are separated by a dot.
+·	The number of header fields is twelve and the length of the header field is twenty.
+·	It has Unicast, broadcast, and multicast style of addresses.
+·	IPv4 supports VLSM (Virtual Length Subnet Mask).
+·	IPv4 uses the Post Address Resolution Protocol to map to the MAC address.
+·	RIP may be a routing protocol supported by the routed daemon.
+·	Networks ought to be designed either manually or with DHCP.
+·	Packet fragmentation permits from routers and causing host.
 
-IPV4 Range 
+~~ IPV4 Range 
 
 ~ Class A:
-Range: 0.0.0.0 to 127.255.255.255
-Used for default routing (0.0.0.0/0), LAN card testing (127.0.0.0 to 127.255.255.255), and DHCP packets.
+·	Range: 0.0.0.0 to 127.255.255.255
+·	Used for default routing (0.0.0.0/0), LAN card testing (127.0.0.0 to 127.255.255.255), and DHCP packets.
 ~ Class B:
-Range: 128.0.0.0 to 191.255.255.255
-Used for APIPA (Automatic Private IP Addressing) in DHCP (169.254.0.1 to 169.254.255.254) and private IP addresses (172.16.0.0 to 172.31.255.255).
+·	Range: 128.0.0.0 to 191.255.255.255
+·	Used for APIPA (Automatic Private IP Addressing) in DHCP (169.254.0.1 to 169.254.255.254) and private IP addresses (172.16.0.0 to 172.31.255.255).
 ~ Class C:
-Range: 192.0.0.0 to 223.255.255.255
-Used for private IP addresses (192.168.0.0 to 192.168.255.255) and mostly for communication.
+·	Range: 192.0.0.0 to 223.255.255.255
+·	Used for private IP addresses (192.168.0.0 to 192.168.255.255) and mostly for communication.
 ~ Class D:
-Range: 224.0.0.0 to 239.255.255.255
-Reserved for multicasting purposes
+·	Range: 224.0.0.0 to 239.255.255.255
+·	Reserved for multicasting purposes
 
+
+~ Limitations of IPv4
+·	IP relies on network layer addresses to identify end-points on network, and each network has a unique IP address.
+·	The world’s supply of unique IP addresses is dwindling, and they might eventually run out theoretically.
+·	If there are multiple host, we need IP addresses of next class.
+·	Complex host and routing configuration, non-hierarchical addressing, difficult to re-numbering addresses, large routing tables, non-trivial implementations in providing security, QoS (Quality of Service), mobility and multi-homing, multicasting etc. are the big limitation of IPv4 so that’s why IPv6 came into the picture.
