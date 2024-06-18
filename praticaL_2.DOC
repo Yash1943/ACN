@@ -45,3 +45,9 @@ This is the nonobligatory part of IPv4. Local networks that have massive numbers
 ·	The world’s supply of unique IP addresses is dwindling, and they might eventually run out theoretically.
 ·	If there are multiple host, we need IP addresses of next class.
 ·	Complex host and routing configuration, non-hierarchical addressing, difficult to re-numbering addresses, large routing tables, non-trivial implementations in providing security, QoS (Quality of Service), mobility and multi-homing, multicasting etc. are the big limitation of IPv4 so that’s why IPv6 came into the picture.
+
+
+~ Types of IPv4 Addresses
+· We have two types of IP addresses, namely public IP addresses and private IP addresses.
+    · Public IP address – used to route Internet traffic. This is used on the Internet and is given out by Internet Service Providers (ISPs) to their customers.
+    · Private IP address – used in private networks for internal traffics within the LAN. Private addresses are not routable out the Internet.
