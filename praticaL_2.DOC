@@ -51,3 +51,7 @@ This is the nonobligatory part of IPv4. Local networks that have massive numbers
 · We have two types of IP addresses, namely public IP addresses and private IP addresses.
     · Public IP address – used to route Internet traffic. This is used on the Internet and is given out by Internet Service Providers (ISPs) to their customers.
     · Private IP address – used in private networks for internal traffics within the LAN. Private addresses are not routable out the Internet.
+~ IPv4 Address Allocation
+· The Internet Protocol address can be allocated to hosts or interfaces either manually or dynamically.
+      · Static – static IP address is set manually on the device. It is best practice to set static IP addresses on network devices, such as routers and switches, and on servers as well.
+      · Dynamic – dynamic IP address can be automatically allocated to a device via Dynamic Host Configuration Protocol (DHCP). Dynamic IP addresses are best to be used on end devices, such as PCs.
